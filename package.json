@@ -23,5 +23,6 @@
     "markitdown-ts": "^0.0.4"
   },
   "license": "MIT",
-  "author": "Diego Lamarão"
+  "author": "Diego Lamarão",
+  "repository": "https://github.com/X2Digital/markitdown-cli.git"
 }
