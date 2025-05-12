@@ -1,0 +1,27 @@
+{
+  "name": "markitdown-cli",
+  "version": "0.0.1",
+  "module": "src/cli.ts",
+  "type": "module",
+  "description": "A CLI way to use markitdown-ts",
+  "main": "dist/cli.js",
+  "bin": {
+    "markitdown-cli": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsup src/cli.ts --out-dir dist --format cjs"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.15.17",
+    "tsup": "^8.4.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "markitdown-ts": "^0.0.4"
+  },
+  "license": "MIT",
+  "author": "Diego Lamarão"
+}
