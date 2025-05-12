@@ -1,6 +1,6 @@
 {
   "name": "markitdown-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "module": "src/cli.ts",
   "type": "module",
   "description": "A CLI way to use markitdown-ts",
